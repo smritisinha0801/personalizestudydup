@@ -12,7 +12,7 @@ export default function Navbar() {
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to={Homepage}>
-          <img src={logo} alt="Time-Table Icon" width="150" height="60" />
+          <img src={logo} alt="Time-Table Icon" width="200" height="80" />
         </Link>
         <button
           className="navbar-toggler"

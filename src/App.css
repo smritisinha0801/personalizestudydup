@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  background-color: #92898a;
+  background-color: #af9fa5;
   padding: 1rem;
 }
 
@@ -87,7 +87,7 @@ footer {
 .add-subject {
   background-color: #af9fa5;
   color: #e7dfe8;
-  border: 1px solid #92898a;
+  border: 1px solid #af9fa5;
   padding: 0.75rem;
   font-size: 1rem;
   cursor: pointer;
@@ -95,11 +95,11 @@ footer {
 }
 
 .add-subject:hover {
-  background-color: #92898a;
+  background-color: #af9fa5;
   transition: ease-in-out;
   color: #ede3e4;
 }
 footer a {
   text-decoration: underline;
-  color: #92898a;
+  color: #ede3e4;
 }
