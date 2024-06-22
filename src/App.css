@@ -34,8 +34,8 @@ body {
 }
 
 .header p {
-  font-size: 1.2rem;
-  color: #af9fa5;
+  font-size: 3rem;
+  color: #e7dfe8;
 }
 
 footer {
@@ -87,7 +87,7 @@ footer {
 .add-subject {
   background-color: #af9fa5;
   color: #e7dfe8;
-  border: 1px solid #af9fa5;
+  border: 2px solid #ede3e4;
   padding: 0.75rem;
   font-size: 1rem;
   cursor: pointer;
