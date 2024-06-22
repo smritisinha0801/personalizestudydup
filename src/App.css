@@ -1,10 +1,10 @@
 body {
   font-family: "Roboto Slab", chivo;
   line-height: 1.6;
-  background-color: #af9fa5;
+  background-color: #90c2e7;
   margin: 0;
   padding: 0;
-  color: #e7dfe8;
+  color: #fcf7f8;
 }
 
 .navbar {
@@ -29,12 +29,12 @@ body {
   background-color: #af9fa5;
   padding: 2rem;
   margin: 1rem;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 0 10px rgba(217, 185, 185, 0.1);
 }
 
 .header p {
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: #e7dfe8;
 }
 
