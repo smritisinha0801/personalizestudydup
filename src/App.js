@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./Navbar.js";
 import Homepage from "./Homepage.js";
 import Footer from "./Footer.js";
+import Timetable from "./Timetable.js";
 // import { Link } from "react-router-dom";
 export default function App() {
   return (
@@ -11,6 +12,8 @@ export default function App() {
       <Navbar />
       <Homepage />
       <Footer />
+      <Timetable />
+      <Outputpage />
     </div>
   );
 }
