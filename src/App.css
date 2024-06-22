@@ -1,14 +1,14 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto Slab", chivo;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #af9fa5;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #92898a;
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #92898a;
   padding: 1rem;
 }
 
@@ -18,15 +18,15 @@ body {
 }
 
 .nav-link {
-  color: #f4f4f4 !important;
+  color: #e7dfe8 !important;
 }
 
 .nav-link:hover {
-  color: #ccc !important;
+  color: #e7dfe8 !important;
 }
 
 .header {
-  background-color: #fff;
+  background-color: #af9fa5;
   padding: 2rem;
   margin: 1rem;
   border-radius: 8px;
@@ -35,11 +35,11 @@ body {
 
 .header p {
   font-size: 1.2rem;
-  color: #555;
+  color: #af9fa5;
 }
 
 footer {
-  color: grey;
+  color: af9fa5;
   text-align: center;
   padding: 1rem;
 
@@ -49,12 +49,12 @@ footer {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #af9fa5;
   padding: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(237, 227, 228);
   align-items: center;
 }
 
@@ -70,7 +70,7 @@ footer {
   width: 100%;
   padding: 0.5rem;
   margin-top: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ede3e4;
   border-radius: 4px;
 }
 
@@ -85,9 +85,9 @@ footer {
 }
 
 .add-subject {
-  background-color: white;
-  color: #496592;
-  border: 1px solid #496592;
+  background-color: #af9fa5;
+  color: #92898a;
+  border: 1px solid #92898a;
   padding: 0.75rem;
   font-size: 1rem;
   cursor: pointer;
@@ -95,11 +95,11 @@ footer {
 }
 
 .add-subject:hover {
-  background-color: #496592;
+  background-color: #92898a;
   transition: ease-in-out;
-  color: white;
+  color: #ede3e4;
 }
 footer a {
   text-decoration: underline;
-  color: #496592;
+  color: #92898a;
 }

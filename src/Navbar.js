@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg"
-      style={{ backgroundColor: "blue" }}
+      style={{ backgroundColor: "RoseQuartz" }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to={Homepage}>
@@ -22,7 +22,7 @@ export default function Navbar() {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          style={{ color: "white" }}
+          style={{ color: "magnolia" }}
         >
           <span className="navbar-toggler-icon" />
         </button>
@@ -33,7 +33,7 @@ export default function Navbar() {
                 className="nav-link active"
                 aria-current="page"
                 to={Homepage}
-                style={{ color: "white" }}
+                style={{ color: "magnolia" }}
               >
                 Home
               </Link>
@@ -42,7 +42,7 @@ export default function Navbar() {
               <Link
                 to={Timetable}
                 className="nav-link active"
-                style={{ color: "white" }}
+                style={{ color: "Magnolia" }}
               >
                 Generate Time-Table
               </Link>
