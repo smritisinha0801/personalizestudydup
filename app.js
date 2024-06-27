@@ -1,11 +1,12 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
-const generateTimetable = require('./timetable');
 
-app.use(express.json());
+app.use(bodyParser.json()); // parse JSON bodies
 
 app.post('/submit', (req, res) => {
   const formData = req.body;
+  // Process the form data and generate the timetable
   const generatedTimetable = generateTimetable(formData);
   res.json(generatedTimetable);
 });
